@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MountyHall.API", "MountyHall.API\MountyHall.API.csproj", "{F8FEA8A8-F8D9-45C1-AF8E-06F51BD72D66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MountHall.Tests", "MountHall.Tests\MountHall.Tests.csproj", "{84F7878E-27E5-42B7-96CE-0CDE554BFB53}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MountyHall.UI", "MountyHall.UI\", "{D40CE264-4C98-4CCD-8466-9F776F186C42}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64685"
+		Debug.AspNetCompiler.PhysicalPath = "MountyHall.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64685\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64685"
+		Release.AspNetCompiler.PhysicalPath = "MountyHall.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64685\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64685"
+		SlnRelativePath = "MountyHall.UI\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8FEA8A8-F8D9-45C1-AF8E-06F51BD72D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FEA8A8-F8D9-45C1-AF8E-06F51BD72D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FEA8A8-F8D9-45C1-AF8E-06F51BD72D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FEA8A8-F8D9-45C1-AF8E-06F51BD72D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F7878E-27E5-42B7-96CE-0CDE554BFB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F7878E-27E5-42B7-96CE-0CDE554BFB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F7878E-27E5-42B7-96CE-0CDE554BFB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F7878E-27E5-42B7-96CE-0CDE554BFB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40CE264-4C98-4CCD-8466-9F776F186C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40CE264-4C98-4CCD-8466-9F776F186C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40CE264-4C98-4CCD-8466-9F776F186C42}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40CE264-4C98-4CCD-8466-9F776F186C42}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6492EFD8-9BCB-4328-9CC9-3E49E10362F8}
+	EndGlobalSection
+EndGlobal
