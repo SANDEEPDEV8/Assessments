@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="08/20/2022 09:48:54">
+  <assembly name="/projects/challenge/CompanyService.Tests/bin/Debug/netcoreapp3.0/CompanyService.Tests.dll" run-date="2022-08-20" run-time="09:48:54" total="3" passed="0" failed="3" skipped="0" time="0.491" errors="0">
+    <errors />
+    <collection total="3" passed="0" failed="3" skipped="0" name="Test collection for CompanyService.Tests.IntegrationTests" time="0.491">
+      <test name="CompanyService.Tests.IntegrationTests.Test1" type="CompanyService.Tests.IntegrationTests" method="Test1" time="0.4080018" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 400, but found OK.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CompanyService.Tests.IntegrationTests.CheckOnBadRequest(CompanyForm company, String errorMessage) in /projects/challenge/CompanyService.Tests/IntegrationTests.cs:line 32
+   at CompanyService.Tests.IntegrationTests.Test1() in /projects/challenge/CompanyService.Tests/IntegrationTests.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CompanyService.Tests.IntegrationTests.Test3" type="CompanyService.Tests.IntegrationTests" method="Test3" time="0.0296720" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 400, but found OK.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CompanyService.Tests.IntegrationTests.CheckOnBadRequest(CompanyForm company, String errorMessage) in /projects/challenge/CompanyService.Tests/IntegrationTests.cs:line 32
+   at CompanyService.Tests.IntegrationTests.Test3() in /projects/challenge/CompanyService.Tests/IntegrationTests.cs:line 128
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="CompanyService.Tests.IntegrationTests.Test2" type="CompanyService.Tests.IntegrationTests" method="Test2" time="0.0533592" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 400, but found OK.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at CompanyService.Tests.IntegrationTests.CheckOnBadRequest(CompanyForm company, String errorMessage) in /projects/challenge/CompanyService.Tests/IntegrationTests.cs:line 32
+   at CompanyService.Tests.IntegrationTests.Test2() in /projects/challenge/CompanyService.Tests/IntegrationTests.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
